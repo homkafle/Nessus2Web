@@ -35,7 +35,7 @@ def main(argv):
     f=open(outputfile,'w')
     for t in pt.targets:
         for v in t.vulns:
-            if v.get('svc_name') == 'www':
+            if v.get('svc_name') == 'www' or v.get('plugin_id')=='10107':
                 #print t.name +":"+ v.get('port')
                 f.write(t.name +":"+ v.get('port') +'\n')
 
