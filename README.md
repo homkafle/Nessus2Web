@@ -1,5 +1,5 @@
 # Nessus2Web
-This script will help us to Discover all the identified web services from a Nessus scan file and write them in a file as a list of IPs and their corresponding port after a colon.
+This script parse a Nessus file and discover all the identified web services which then writen to a file as a list of IPs and their corresponding port after a colon.
 Require python module: dotnessus_v2
 Could be downloaded from: https://code.google.com/archive/p/pynessus/downloads
 Usage: 
